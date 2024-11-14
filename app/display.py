@@ -32,4 +32,5 @@ class PrintBookConsole(PrintBook):
 
 class PrintBookReverse(PrintBook):
     def print_book(self, book: Book) -> None:
-        print(f"Printing the book in reverse: {book.title}...\n{book.content[::-1]}")
+        print(f"Printing the book in reverse: {book.title}..."
+              f"\n{book.content[::-1]}")
